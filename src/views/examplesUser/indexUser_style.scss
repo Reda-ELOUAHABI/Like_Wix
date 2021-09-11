@@ -1,0 +1,189 @@
+
+.shadow1{
+    background-color: #484848;
+    height: 100px;
+}
+
+.Logo{
+    width: 40px;
+
+}
+.welcomeTostorak{
+    color: white;
+
+}
+
+.pleaseConfirm{
+    color: #949494;
+    margin-left: 50px;
+    font-family: system-ui;
+}
+.clickHere{
+    color: rgba(0, 0, 223, 0.507);
+}
+
+.thisMonth{
+    height: 29px;
+    width: 150px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: #2a4dfc;
+    color: white;
+    border-radius: 8px;
+   //sistance between 4 cards blue ans btn this month 
+    margin-bottom: 0%;
+}
+
+
+.tableOrder{
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.noteOrder{
+    text-align: center;
+    font-size: large;
+    color: #949494;
+    margin-bottom: 10px;
+}
+.shadow3{
+       width: 500px; 
+       height: 200px;
+    // display: block;
+    // justify-content: space-evenly;
+    // align-items: center;
+    // flex-direction: row;
+}
+.shadow31{
+   // background-color: aqua;
+     margin-left: 60px;
+  
+
+}
+.shadow32{
+    margin-left: 30px;
+}
+
+.Title2Card{
+//     display: flex;
+// justify-content: center;
+position: relative;
+left: 10px;
+top: 10px;
+text-align: left
+}
+.AddItems{
+    height: 29px;
+    width: 150px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: #2a4dfc;
+    color: white;
+    border-radius: 8px;
+    // it gives Like hr
+   // margin-bottom: 0%;
+   //text-align: center;
+    //  display: flex;
+    //  justify-content: center;
+    //justify-items: center;
+    //align-items: center;
+    position: relative;
+    top: 50px;
+
+
+}
+.downn{
+    position: relative;
+    left: -10px;
+    font-size: 20px;
+}
+// Flex <3
+// container 1
+.containerFlex1{
+    display: flex ;
+    height: 300px;
+    
+}
+// Items
+.flexCard11{
+flex: 1.5;
+}
+
+.flexCard12{
+flex: 1;
+margin-left: 10px;
+}
+
+// container 2
+.containerFlex2{
+    display: flex ;
+    height: 300px;
+    
+}
+// Items
+.flexCard22{
+flex: 1.5;
+margin-left: 10px;
+margin-bottom: 0px;
+}
+.flexCard21{
+flex: 1;
+
+}
+.HorizentalOne{
+    display: flex;
+    align-items: center;
+}
+
+.HorizentalOne > h1{
+    flex: 1.3;
+    
+}
+.HorizentalOne > button{
+    flex: 1.3;
+    
+}
+.HorizentalOne > img{
+    flex: 1;
+    width: 90px;
+    height: auto;
+}
+// img.flexCard22 {
+//     width: 7px;
+//     height: auto;  
+// }
+.VerticalOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.VerticalOne >p{
+    margin-bottom: 0%;
+
+}
+.VerticalOne >button{
+   margin-top: 0%;
+   margin-bottom: 0%;
+   position: relative;
+   top: 10px;
+
+}
+
+
+.btnflexCards{
+    height: 29px;
+    width: 150px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    //background-color: #2a4dfc;
+    color: white;
+    border-radius: 8px;
+    // it gives Like hr
+   // margin-bottom: 0%;
+   //text-align: center;
+    //  display: flex;
+    //  justify-content: center;
+    //justify-items: center;
+    //align-items: center;
+    position: relative;
+    top: 50px;
+
+}
+//I just facilate the task for me , now It still just positionning outside+ style

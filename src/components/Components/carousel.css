@@ -1,0 +1,78 @@
+.carouselParent{
+    position: relative;
+    width: 900px;
+    height: 100px;
+    margin-bottom: 200px;
+    text-align: center;
+    
+
+}
+.pb-8, .py-8 {
+    padding-bottom: 5rem !important;
+}
+/* Carousel itself */
+.awssld__wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    /* the real hieght width */
+    height: 360px;
+    width: 790px;
+    border-radius: 10px;
+}
+
+/* Another Control Carousel */
+.awssld__container figure, .awssld__content, .awssld__box {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+}
+/* three Bullet */
+.awssld__bullets {
+    position: absolute;
+    top: 110px;
+    left: -90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Previous _ Next Btn */
+
+.awssld__controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--control-button-width);
+    height: var(--control-button-height);
+    position: absolute;
+    /* !! */
+    top: 75px;
+    z-index: 10;
+    /* //top: calc(50% - (0.5 * var(--control-button-height))); */
+    
+    border: none;
+    background-color: var(--control-button-background);
+    color: #fff;
+    cursor: pointer;
+}
+/* Previous Next Span */
+
+.awssld__controls__arrow-left, .awssld__controls__arrow-right {
+    width: 100%;
+    height: var(--organic-arrow-height);
+    position: relative;
+    display: block;
+    transition: opacity 0.2s ease-out, -webkit-transform 0.2s ease-out 0.125s;
+    transition: transform 0.2s ease-out 0.125s, opacity 0.2s ease-out;
+    transition: transform 0.2s ease-out 0.125s, opacity 0.2s ease-out, -webkit-transform 0.2s ease-out 0.125s;
+}
+.footer{
+    position: relative;
+    bottom: 10px;
+}

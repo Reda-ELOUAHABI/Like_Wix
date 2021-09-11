@@ -1,0 +1,239 @@
+/* Lazy Load Styles */
+.caard-image {
+	display: block;
+	min-height: 15rem;
+	/* layout hack */
+	background: #fff center center no-repeat;
+	background-size: cover;
+	//filter: blur(3px); 
+
+	/* blur the lowres image */
+}
+
+a.caard-image2 {
+	height: 90px;
+}
+
+.caard-image>a {
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/psychopomp-100.jpg);
+	//  data-image-full : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/310408/psychopomp-500.jpg ;
+}
+
+.caard-image>img {
+	display: block;
+	width: 100%;
+	opacity: 0;
+	/* visually hide the img element */
+}
+
+//card1
+li.caard1 h2 {
+	color: #fff;
+	position: relative;
+	bottom: -200px;
+}
+
+li.caard1 p {
+	color: #fff !important;
+	position: relative;
+	bottom: -220px;
+}
+
+li.caard1 h3 {
+	color: #fff;
+	position: relative;
+	bottom: -210px;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+//card2
+li.caard2 h2 {
+	color: rgb(0, 0, 0);
+	position: inherit;
+	bottom: -200px;
+	left: 1009px;
+}
+
+li.caard2 p {
+	color: rgb(0, 0, 0) !important;
+	position: inherit;
+	bottom: -220px;
+	left: 1009px;
+}
+
+li.caard2 h3 {
+	color: rgb(0, 0, 0);
+	position: inherit;
+	bottom: -2220px;
+	left: 1009px;
+	text-align: left;
+	padding-left: 1em;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.caard-image.is-loaded {
+	filter: none;
+	/* remove the blur on fullres image */
+	transition: filter 1s;
+}
+
+
+
+
+/* Layout Styles */
+// html, body {
+// 	width: 100%;
+// 	height: 100%;
+// 	margin: 0;
+// 	font-size: 16px;
+// 	font-family: sans-serif;
+// }
+
+.caard-list {
+	display: flex !important;
+	margin: 1rem auto;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.caard {
+	border-radius: 40px;
+	display: inline-block;
+	width: 250px;
+	max-width: 20rem;
+	margin: 1rem;
+	font-size: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+	box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+	// //position the caard
+	position: relative;
+	left: 40px;
+	bottom: 95px;
+}
+
+.caard:hover {
+	transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.caard-description {
+	display: block;
+	padding: 1px 1px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.caard-description>h2 {
+	margin: 0 0 0.5em;
+}
+
+.caard-description>p {
+	margin: 0;
+}
+
+.image_profile {
+
+
+	display: block;
+	min-height: 15rem;
+	/* layout hack */
+	background: #fff center center no-repeat;
+	background-size: cover;
+	//filter: blur(3px); 
+
+	height: 30px;
+
+}
+
+
+.wrapper {
+	//width:70px;
+	//height:70px;
+	margin: 25px auto;
+	overflow: hidden;
+	//border-radius:50%;
+	position: relative;
+	left: -100px;
+	width: 36px;
+	height: 36px;
+	font-size: 0.875rem;
+	color: #fff;
+	background-color: #adb5bd;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	border-radius: 50%;
+	height: 48px;
+	width: 48px;
+	border-radius: 50% !important;
+
+
+
+
+
+}
+
+
+.wrapper img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	border-radius: 50%;
+
+	vertical-align: middle;
+	border-style: none;
+}
+
+
+
+.CancelBtn {
+	/*
+	   width: "120px",
+              height: "40px",
+             borderRadius: "10%",
+             position: "inherit",
+             left: "100px",
+             backgroundColor: "white",
+             borderStyle: "none",
+             fontWeight: "bolder",
+             color: "grey" 
+	  */
+	width: 130px;
+	height: 40px;
+	//border-radius:20%;
+	border-radius: 100px / 190px;
+	//    position:inherit;
+	//    left:1100px;
+	//    top: 1100px;
+	background-Color: rgb(240, 240, 240);
+	border-Style: none;
+	font-Weight: bolder;
+	color: grey;
+}
+
+.PlansBtn {
+	width: 130px;
+	height: 40px;
+	//border-radius:20%;
+	border-radius: 100px / 190px;
+	//    position:inherit;
+	//    left:100px;
+	background-Color: rgb(0, 0, 0);
+	border-Style: none;
+	font-Weight: bolder;
+	color: rgb(255, 255, 255);
+	margin-right: 5px;
+}
+
+.YourProducts{
+	margin-bottom: 100px;
+}

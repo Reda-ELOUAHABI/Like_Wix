@@ -1,0 +1,77 @@
+/* .fa-sort-down {
+  position: relative;
+  bottom: 5px;
+  left: 20px;
+} */
+
+a.test {
+    position: relative;
+    font-size: 2em;
+    color: inherit;
+    cursor: pointer;
+    white-space: pre-wrap;
+    background-color: transparent !important;
+  }
+ 
+  .fa-layer-group
+  {
+    position: absolute;
+    font-size: 0.6em;
+    top: 16px;
+ right: 160px;
+
+  }
+ 
+  .fa-check-circle   {
+    position: absolute;
+    font-size: 0.6em;
+    top: 16px;
+    right: 115px;
+
+  }
+ 
+  .fa-shopping-cart1
+  {
+    position: absolute;
+    font-size: 0.6em;
+    top: 16px;
+    right: 75px;
+
+  }
+  /* a{
+    color: inherit;
+    background-color: none;
+  } */
+  span.num1 {
+      
+    position: relative;
+    font-size: 0.4em;
+    top: -15px;
+    color: rgb(255, 255, 255);
+    width:10px;
+    right: 140px;
+    border-radius: 90%;
+    background-color:rgb(53, 14, 230) ;
+  }
+  span.num2 {
+      
+    position: relative;
+    font-size: 0.4em;
+    top: -15px;
+    color: rgb(255, 255, 255);
+    width:10px;
+    right: 105px;
+    border-radius: 90%;
+    background-color:rgb(53, 14, 230) ;
+  }
+  span.num3 {
+      
+    position: relative;
+    font-size: 0.4em;
+    top: -15px;
+    color: rgb(255, 255, 255);
+    width:10px;
+    right: 65px;
+    border-radius: 90%;
+    background-color:rgb(53, 14, 230) ;
+  }

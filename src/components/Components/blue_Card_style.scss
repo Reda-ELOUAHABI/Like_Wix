@@ -1,0 +1,44 @@
+/* Lazy Load Styles */
+.caardblue {
+	background-color: #2a4dfc;
+	border-radius: 4px;
+	display: inline-block;
+	height: 144px ;
+	width: 240px;
+	max-width: 20rem;
+	// !!
+	margin: 30px;
+	font-size: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+	box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+	//transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+	// //position the caard
+	// position: relative;
+	// right: -40px;
+	// bottom: 95px;
+
+}
+
+.txtBlueCard{
+	//display: contents;
+	margin-top: 10%;
+	
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
+.txtBlueCard>h1, .txtBlueCard>h2 {
+	color: aliceblue;
+}
+// noo need
+.caard-list {
+	display: block;
+	margin: 1rem auto;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+	position: relative;
+	left: -60px;
+}

@@ -1,0 +1,83 @@
+// * {
+//     background-color: rgb(27, 88, 141);
+// }
+
+.AddExtensionBTN {
+    position: relative;
+    bottom: 60px;
+    left: 920px;
+    border-radius: 7px;
+    border: none;
+    background-color: #7b79f3;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    // margin: 10px;
+    justify-content: space-around;
+}
+
+.card {
+    flex: 1 0 300px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+    margin-right: 20px;
+}
+
+.cardInsider {
+    padding: 10px;
+}
+
+
+.imageExtension {
+    border-radius: 10px;
+}
+
+.activeDiv {
+    background-color: rgb(236, 236, 255);
+    height: auto;
+    width: 60px;
+    position: relative;
+    top: -60px;
+    left: 220px;
+    font-size: 10px;
+    border-radius: 90px;
+    text-align: center;
+    color: royalblue;
+}
+
+// .centered {
+//     padding: 10px;
+// }
+
+// btn {
+//     border: 2px solid rebeccapurple;
+// }
+
+
+
+.btmBtn {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    //top: 10px;
+    left: 120px;
+    display: flex;
+    bottom: 20px;
+
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+}
+
+.Deletebtn {
+    color: red;
+}
+
+pDescrition {
+    margin-bottom: 1010px !important;
+}

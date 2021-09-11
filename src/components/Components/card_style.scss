@@ -1,0 +1,267 @@
+/* Lazy Load Styles */
+.caardorder {
+	border-radius: 40px;
+	display: inline-block;
+	height: 244px ;
+	width: 200px;
+	max-width: 20rem;
+	// !!
+	margin: 5px;
+	font-size: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+	box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.5);
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+	// //position the caard
+	position: relative;
+	right: -40px;
+	bottom: 95px;
+
+}
+
+.caard-list {
+	display: block;
+	margin: 1rem auto;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+	position: relative;
+	left: -60px;
+}
+
+.caard:hover {
+	transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.image_profile {
+
+
+	display: block;
+	min-height: 15rem;
+	/* layout hack */
+	background: #fff center center no-repeat;
+	background-size: cover;
+	//filter: blur(3px); 
+
+	height: 30px;
+
+}
+
+
+.iconHeart{
+	position: relative;
+	top: 10px;
+	left: 70px;
+	z-index: 1;
+}
+
+
+.CercleImg {
+    width: 120px;
+    height: 110px;
+    border-radius: 99%;
+    border: 1px solid transparent;
+    background-size: 100% 100%, 50% 50%, 70% 70%, 50% 76%, 50% 50%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(white, white), linear-gradient(
+30deg
+, #311717 0%, #fbfbfb 0%), linear-gradient(
+160deg
+, #383807 86%, white 30%), linear-gradient(
+300deg
+, #0b0b36 96%, white 30%), linear-gradient(
+210deg
+, #0b3d0b 0%, white 0%);
+    background-position: center center, left top, right top, left bottom, right bottom;
+    background-origin: content-box, border-box, border-box, border-box, border-box;
+    background-clip: padding-box, border-box, border-box, border-box, padding-box;
+    -webkit-transform: rotate(
+30deg
+);
+    transform: rotate(
+344deg
+);
+position: relative;
+left: 40px;
+}
+
+  .ImageCard{
+	//margin-top: 20px ;
+	height: 100px ;
+	width: 100px;
+	//z-index: 100;
+
+}
+p{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 50px;
+}
+h3{
+	margin-bottom: -5px;
+}
+.hr {
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+    /* border: 0; */
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-top: -40px;
+}
+button{
+	position: relative;
+	top: 10px;
+	z-index: 12;
+	background-color: transparent;
+	border: none;
+	width: calc(100% - 0px);
+	height: calc(100% - 0px);
+	margin-bottom: 100px;
+	// display:flex;
+    // flex-grow:1;
+
+	// float: none;
+	// overflow: hidden;
+}
+// .button{
+// 	// float: none;
+// 	// overflow: hidden;
+// 	// display:flex;
+//     // flex-grow:1;
+// }
+// button:hover{
+// 	position: relative;
+// 	top: 10px;
+// 	z-index: 12;
+// 	background-color: rgb(55, 145, 77);
+// 	border: none;
+// 	width: calc(100% - 0px);
+// 	height: calc(100% - 0px);
+// 	margin-bottom: 100px;
+// }
+.w3-rest:hover{
+	position: relative;
+	top: 10px;
+	z-index: 12;
+	background-color: rgb(109, 95, 236) !important;
+	border: none;
+	width: calc(100% - 0px) !important;
+	height: calc(100% - 0px) !important;
+	margin-bottom: 100px !important;
+	margin-top: -10px !important;
+}
+
+// Card Special : at the right
+
+.caardspecial{
+	background-color: white;
+position: absolute;
+left: 870px;
+top: 100px;
+height: 440px;
+width: 270px;
+}
+.RowPluging{
+	// Set the horizontaly flex
+	display: flex;
+width: 100%;
+margin: 0 auto;
+justify-content: space-around;
+//align-items: center;
+}
+
+.MyPlugins{
+	display: flex;
+	flex-direction: row;
+	order: 5;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.fa-plus-circle{
+	font-size: 20px;
+	color: rgb(96, 99, 230);
+	position:relative;
+	left: 230px;
+	top: -30px;
+
+
+}
+// the same as hr class
+.separatorLine{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-top: -20px;
+}
+.ImagePlugins{
+	margin: 10px;
+}
+.container{
+	display: flex;
+	flex-direction: row !important;
+	position: relative;
+	
+}
+.cloudIdea{
+	height: 20px;
+	width: 60px;
+	background-color: rgb(247, 198, 108);
+	position: relative;
+	top: 20px;
+	border-radius: 5px;
+
+}
+.trianglecloud{
+	width: 0;
+height: 0;
+border:5px solid transparent;
+border-left: 15px solid rgb(247, 198, 108);
+margin-left: 35px;
+position: relative;
+top: 5px;
+left: -47px;
+transform: rotate(180deg);
+}
+.inProgress{
+	font-size: 10px;
+	position: relative;
+	top: -10px;
+	left: 6px;
+}
+.plugingTitle{
+	padding-top: 10px;
+}
+.plugingTitle> p{
+	padding-top: -7px;
+	font-size: 10px;
+}
+.plugingTitle> h4{
+	margin-bottom: -4px;
+
+}
+
+.footerCard{
+	background-color: #ececf3;
+	height: 40px;
+	width: 270px;
+	position: relative;
+//	left: 870px;
+	top: -10px;
+	border-radius:  0px 0px 7px 7px;
+	z-index: -2;
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+.viewALl{
+	color: rgb(105, 105, 230);
+	font-size: 13px;
+	font-weight: 400;
+}
+.first16{
+padding-top: 7px;
+	font-size: 10px;
+}
